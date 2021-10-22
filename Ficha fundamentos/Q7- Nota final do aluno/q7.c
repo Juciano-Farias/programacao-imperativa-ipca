@@ -2,7 +2,7 @@
 
 int main() {
 
-    int a, b, c, d, e, f, g;
+    int a, b, c, d, e, f;
     float h, i, j;
 
     printf("Digite o valor do teste 1 ");
@@ -23,9 +23,9 @@ int main() {
     printf("Digite o valor do trabalho 4 ");
     scanf("%d", &f);
 
-    h = (a + b)/2;
+    h = (a + b)/(float)2;
 
-    i = (c + d + e + f)/4;
+    i = (c + d + e + f)/(float)4;
 
     j = h*0.7 + i*0.3;
 

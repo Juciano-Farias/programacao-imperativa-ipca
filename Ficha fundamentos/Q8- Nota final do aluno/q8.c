@@ -22,9 +22,9 @@ int main() {
     printf("Digite o valor do trabalho 4 ");
     scanf("%f", &f);
 
-    h = (a + b)/2;
+    h = (a + b)/(float)2;
 
-    i = (c + d + e + f)/4;
+    i = (c + d + e + f)/(float)4;
 
     j = h*0.7 + i*0.3;
 

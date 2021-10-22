@@ -22,7 +22,7 @@ int main() {
 
     f = a + b + c + d + e;
 
-    g = (a + b + c + d + e)/5;
+    g = (a + b + c + d + e)/(float)5;
 
     printf("A soma dos valores e: %d", f);
     printf("A media dos valores e: %f", g);
