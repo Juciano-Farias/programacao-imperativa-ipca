@@ -26,7 +26,7 @@ int main() {
     }
 
     if(numeroFilhos <= 3) {
-        bonusNumeroFilhos = 25;
+        bonusNumeroFilhos = 25*numeroFilhos;
         bonus += bonusNumeroFilhos;
     } else if(numeroFilhos > 3) {
         bonusNumeroFilhos = 75;
