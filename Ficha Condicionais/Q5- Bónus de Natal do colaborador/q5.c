@@ -18,10 +18,10 @@ int main() {
     } 
 
     if(antiguidade <= 10 ) {
-        bonusAntiguidade = 10;
+        bonusAntiguidade = antiguidade*10;
         bonus += bonusAntiguidade;
     } else if(antiguidade > 10) {
-        bonusAntiguidade = 10 + (antiguidade - 10)*20;
+        bonusAntiguidade = 100 + (antiguidade - 10)*20;
         bonus += bonusAntiguidade;
     }
 
